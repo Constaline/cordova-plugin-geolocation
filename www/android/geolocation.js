@@ -44,7 +44,7 @@ module.exports = {
             }
         };
         var enableHighAccuracy = typeof args === 'object' && !!args.enableHighAccuracy;
-        exec(win, fail, 'Geolocation', 'getPermission', [enableHighAccuracy]);
+        exec(success, fail, 'Geolocation', 'getCurrentPosition', [enableHighAccuracy]);
     },
 
     watchPosition: function (success, error, args) {

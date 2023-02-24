@@ -39,6 +39,8 @@ device's actual location.
 This API is based on the
 [W3C Geolocation API Specification](http://dev.w3.org/geo/api/spec-source.html).
 
+__WARNING__: This version bypass browser location on Android platform to gather **better precision** and to return **mocked flag**.
+
 __WARNING__: Collection and use of geolocation data
 raises important privacy issues.  Your app's privacy policy should
 discuss how the app uses geolocation data, whether it is shared with
